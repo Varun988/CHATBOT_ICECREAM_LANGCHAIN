@@ -1,8 +1,6 @@
 from langchain.prompts import PromptTemplate
-import chainlit as cl
 import os
 from dotenv import load_dotenv
-from langchain.prompts import PromptTemplate
 import chainlit as cl
 from langchain.chains import LLMChain
 # define the memory object to add to the llm_chain object
